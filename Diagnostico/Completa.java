@@ -3,6 +3,6 @@ public class Completa implements Lavar{
     public void lavar(Carro carro){
         System.out.println("\nA lavagem completa foi iniciada no " + carro.getModelo());
         System.out.println("\nEste Carro" + carro.getCor() + "\nfoi fabricado em" + carro.getAnoFabricacao());
-        System.out.println("\nVai foi comprado " + carro.getAnoCompra());
+        System.out.println("\nfoi comprado " + carro.getAnoCompra());
     }
 }
