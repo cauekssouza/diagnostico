@@ -1,3 +1,5 @@
+// Simulação de lavagem de Carro, bem simples
+
 public class Carro {
     // Atributos
     private String marca;
