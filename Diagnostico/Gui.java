@@ -73,7 +73,7 @@ class Carro {
     }
 }
 
-// Interface ou Classe Abstrata para Lavagem
+// Classe Abstrata para Lavagem
 abstract class Lavar {
     public abstract void lavar(Carro carro);
     public abstract double getPreco();
@@ -85,7 +85,8 @@ class Simples extends Lavar {
     public void lavar(Carro carro) {
         JOptionPane.showMessageDialog(null, "Lavagem Simples realizada no carro " + carro.getMarca() + " " + carro.getModelo());
     }
-
+    
+    // Preço da Lavgem Simples
     @Override
     public double getPreco() {
         return 20.0;
@@ -98,6 +99,7 @@ class Completa extends Lavar {
         JOptionPane.showMessageDialog(null, "Lavagem Completa realizada no carro " + carro.getMarca() + " " + carro.getModelo());
     }
 
+    // Preço da Lavagem Completa
     @Override
     public double getPreco() {
         return 35.0;
@@ -110,6 +112,7 @@ class Premium extends Lavar {
         JOptionPane.showMessageDialog(null, "Lavagem Premium realizada no carro " + carro.getMarca() + " " + carro.getModelo());
     }
 
+    // Preço da Lavgem Premium
     @Override
     public double getPreco() {
         return 50.0;
