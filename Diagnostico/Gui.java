@@ -1,10 +1,10 @@
 // Bibliotecas para GUI (INterface)
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.List;
+import javax.swing.*; /* Swing*/
+import java.awt.*; /* AWT*/
+import java.awt.event.ActionEvent; /* Evento*/
+import java.awt.event.ActionListener; /* Listener*/
+import java.util.ArrayList; /* Arraylist */
+import java.util.List; /*Lista */
 
 
 
